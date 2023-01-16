@@ -12,4 +12,4 @@ const getAllTestUsers = async(req, res) =>{
     res.status(200).json({msg:"get All getAllTestUsers ", data: name})
 }
 
-module.exports = {getAllUsers, getAllTestUsers};
+module.exports = {getAllUsers, getAllTestUsers, getAboutDipu};
