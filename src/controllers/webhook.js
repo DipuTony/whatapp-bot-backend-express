@@ -39,23 +39,23 @@ const postWebhook = async (req, res) => {
 
 
         //================= > Insert Start
-        let myData = {
-          name: recipientName,
-          phone: recipientPhone,
-          message: incomingMessage.text.body,
-          type: typeOfMsg,
-          timestamp: incomingMessage.timestamp
-        }
+        // let myData = {
+        //   name: recipientName,
+        //   phone: recipientPhone,
+        //   message: incomingMessage.text.body,
+        //   type: typeOfMsg,
+        //   timestamp: incomingMessage.timestamp
+        // }
 
-        console.log("This Need to Capture", myData)
+        // console.log("This Need to Capture", myData)
 
 
-        let mydata = new WpModal(myData);
-        mydata.save()
-          .then(doc => {
-            console.log("data inserted", doc)
-          })
-          .catch(err => console.log("Error in data inserted", err))
+        // let mydata = new WpModal(myData);
+        // mydata.save()
+        //   .then(doc => {
+        //     console.log("data inserted", doc)
+        //   })
+        //   .catch(err => console.log("Error in data inserted", err))
 
         //============= Insert End
 
