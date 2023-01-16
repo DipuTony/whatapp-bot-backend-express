@@ -1,6 +1,10 @@
 const getAllUsers = async(req, res) =>{
     res.status(200).json({sge:"get All projexys"})
 }
+
+const getAboutDipu = async(req, res) =>{
+    res.status(200).json({Message:"Hi.. This is about Dipu"})
+}
 const getAllTestUsers = async(req, res) =>{
 
     let name =  req.body.name;
