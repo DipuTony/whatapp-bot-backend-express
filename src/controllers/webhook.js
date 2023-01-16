@@ -1,6 +1,6 @@
 const WhatsappCloudAPI = require('whatsappcloudapi_wrapper');
 const Whatsapp = new WhatsappCloudAPI({
-  accessToken: 'EAAIZBvM1yOr0BALbrjsSQedqqn6kiiZCGHL16hyZB1yLvYKHCYRfkNEiJ5ZA4ZAq8wOzoJCrzoefE22diBVr6RCoRqxHcVD1WNQOzW3II7rEAAGOZBKXSVnoBAIhedKUg3ZB8WNkOaHp9ay94iWBVuCAmZCpGK1bwEf9D9KhVpZBjuXU7ZABbrxqLGoqSQCM4jc5LZBVPBQbPiTdm6CXG2IKvpjUjFYJqbd610NOiZCtWocHIgrgabokSFfYYwxl1MQNUl9qZB4vnRpMV6ZACr53S1txlZBJ1H1iZBjUf2Sc74qo4ff3iV7H7GfUZB4CmHnOm3ZCPsj8zNFDDLJcZDQlbZCabbTkjAM7GVC4g3YUXFPhl6qsII1N0CwZBn6OlkZBVbya12vBuY3ZBXJUmM7ZAdL44Plry8WdSeot42CtnFZAvkNiAdvxt2gwWa4vhecNfVZBPpy63aoHNAZD',
+  accessToken: process.env.FB_TOKEN,
   senderPhoneNumberId: '106160652257941',
   WABA_ID: '101981406018096',
 });
